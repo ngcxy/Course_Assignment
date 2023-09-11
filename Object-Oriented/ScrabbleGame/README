@@ -1,0 +1,28 @@
+Name: Xinyi Cai
+CS 455 PA4
+Spring 2023
+
+----------------------------------------------
+
+AnagramDictionary class
+A dictionary of all anagram sets. 
+Note: the processing is case-sensitive; so if the dictionary has all lower
+case words, you will likely want any string you test to have all lower case
+letters too, and likewise if the dictionary words are all upper case.
+
+IllegalDictionaryException class
+This class reports problems with the dictionary file.
+
+Rack class
+A Rack of Scrabble tiles
+
+ScoreTable class
+Information about Scrabble scores for scrabble letters and words.
+In scrabble letters that occur more often in the English language are worth less,
+and letters that occur less often are worth more
+Values are hard-coded in its data.
+
+WordFinder class
+Has a main that's responsible for processing the command-line argument,
+and handling any error processing.
+Also contains helper methods to realize the loop of creating rack.

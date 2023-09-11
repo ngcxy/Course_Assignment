@@ -1,0 +1,82 @@
+
+Xvnc TigerVNC 1.8.0 - built May 16 2017 14:01:59
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11400000, The X.Org Foundation
+
+Initializing built-in extension VNC-EXTENSION
+Initializing built-in extension Generic Event Extension
+Initializing built-in extension SHAPE
+Initializing built-in extension MIT-SHM
+Initializing built-in extension XInputExtension
+Initializing built-in extension XTEST
+Initializing built-in extension BIG-REQUESTS
+Initializing built-in extension SYNC
+Initializing built-in extension XKEYBOARD
+Initializing built-in extension XC-MISC
+Initializing built-in extension XINERAMA
+Initializing built-in extension XFIXES
+Initializing built-in extension RENDER
+Initializing built-in extension RANDR
+Initializing built-in extension COMPOSITE
+Initializing built-in extension DAMAGE
+Initializing built-in extension MIT-SCREEN-SAVER
+Initializing built-in extension DOUBLE-BUFFER
+Initializing built-in extension RECORD
+Initializing built-in extension DPMS
+Initializing built-in extension X-Resource
+Initializing built-in extension XVideo
+Initializing built-in extension XVideo-MotionCompensation
+Initializing built-in extension GLX
+
+Sun Jan 29 21:46:57 2023
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[5924]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[5925]: gpg-agent (GnuPG) 2.1.11 started
+
+(xfce4-session:5904): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfce4-session:5904): xfce4-session-WARNING **: xfsm_manager_load_session: Something wrong with /mnt/vocwork3/ddd_v1_w_yGl_1886982/asn1438570_4/asn1438571_1/work/.cache/sessions/xfce4-session-ip-172-31-9-18:3, Does it exist? Permissions issue?
+
+(xfwm4:5927): xfwm4-WARNING **: Error opening /dev/dri/card0: No such file or directory
+
+Sun Jan 29 21:47:21 2023
+ Connections: accepted: 172.31.9.18::57232
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type None(1)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sun Jan 29 21:50:00 2023
+ Connections: closed: 172.31.9.18::57232 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 366
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 15 rects, 364.68 kpixels
+ EncodeManager:             240 B (1:6078.75 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4.66 krects, 27.0148 Mpixels
+ EncodeManager:            72.8125 KiB (1:1450.04 ratio)
+ EncodeManager:     Bitmap RLE: 1.036 krects, 1.7819 Mpixels
+ EncodeManager:                 45.2236 KiB (1:154.182 ratio)
+ EncodeManager:     Indexed RLE: 2.077 krects, 4.61145 Mpixels
+ EncodeManager:                  324.001 KiB (1:55.6721 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.79 krects, 14.7776 Mpixels
+ EncodeManager:                  5.35427 MiB (1:10.5323 ratio)
+ EncodeManager:   Total: 9.578 krects, 48.5505 Mpixels
+ EncodeManager:          5.78618 MiB (1:32.0272 ratio)
+ ComparingUpdateTracker: 777.507 Mpixels in / 63.0861 Mpixels out
+ ComparingUpdateTracker: (1:12.3245 ratio)
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+gpg-agent[5925]: SIGTERM received - shutting down ...
+gpg-agent[5925]: gpg-agent (GnuPG) 2.1.11 stopped

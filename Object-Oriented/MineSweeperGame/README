@@ -1,0 +1,32 @@
+Name: Xinyi Cai
+CSCI 455 PA3
+Spring 2023
+
+----------------------------------------------
+GameBoardPanel class
+This is the GUI for the program: it contains the display and controls for a game, and the minefield display (grid
+of "buttons").  It's the View and Controller in the MVC design pattern, whereas the Model is the VisibleField 
+and MineField.
+It is decomposed into a few other classes that are inner classes of this one.
+ 
+MineField class
+class with locations of mines for a game.
+This class is mutable, because we sometimes need to change it once it's created.
+mutators: populateMineField, resetEmpty
+includes convenience method to tell the number of mines adjacent to a location.
+
+MineSweeper class
+main class for a GUI minesweeper game.
+Games use a 9 x 9 board with 10 randomly placed mines.
+
+MineSweeperFixed class
+main class for a GUI minesweeper game.
+Uses a hard-coded mine field for testing purposes.
+
+VisibleField class
+This is the data that's being displayed at any one point in the game (i.e., visible field, because it's what the
+user can see about the minefield). Client can call getStatus(row, col) for any square.
+It actually has data about the whole current state of the game, including  
+the underlying mine field (getMineField()).  Other accessors related to game status: numMinesLeft(), isGameOver().
+It also has mutators related to actions the player could do (resetGameDisplay(), cycleGuess(), uncover()),
+and changes the game state accordingly.

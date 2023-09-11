@@ -1,0 +1,55 @@
+Name: Xinyi Cai
+USC NetId: xcai6647
+CSCI 455 PA1
+Spring 2023
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Xinyi Cai
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+In Bar class:
+
+FontMetrics metrics = g2.getFontMetrics();
+int leftString = rec.x+(rec.width - metrics.stringWidth(label))/2;
+
+From piazza of course CSCI455: https://piazza.com/class/lcicjd6ac6k1vp/post/43
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+The result get incorrect when trail number is too large.(roughly when larger than 42952250)
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1. The outside code resources students will be allowed to use in assignments for this class are limited to code written by the course staff for the purposes of helping students in the course, or code from the textbook for this course. 
+
+2. The probability is 25% for two heads, 50% for one head and one tail, and 25% for two tail. The one for one head and one tail is different because ths case actually contains two situations: head first then tail or tail first then head. 
+
+3. Roughly 1500 trails are needed.
+
+4. The largest value it can still work is 42952250. It then crashes when I tried 42952251.
+
